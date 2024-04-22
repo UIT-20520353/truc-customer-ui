@@ -6,12 +6,24 @@
   width: 85%;
 }
 
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-10 {
   width: 40px;
 }
 
 .h-10 {
   height: 40px;
+}
+
+.h-9 {
+  height: 36px;
 }
 
 .h-20 {
@@ -25,6 +37,20 @@
 .px-50 {
   padding-left: 200px;
   padding-right: 200px;
+}
+
+.p-3 {
+  padding: 12px;
+}
+
+.px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.py-2 {
+  padding-top: 8px;
+  padding-left: 8px;
 }
 
 .text-20 {
@@ -41,4 +67,72 @@
 
 .text-bold {
   font-weight: 700;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
+.col-span-9 {
+  grid-column: span 9 / span 9;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-3 {
+  gap: 12px;
+}
+
+.gap-6 {
+  gap: 24px;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border-0 {
+  border: 0;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-gray-4 {
+  border-color: $color-gray-4;
+}
+
+.border-gray-2 {
+  border-color: $color-gray-2;
+}
+
+.border-gray-3 {
+  border-color: $color-gray-3;
+}
+
+.rounded-full {
+  border-radius: 999px;
+}
+
+.outline-none {
+  outline: none;
 }
